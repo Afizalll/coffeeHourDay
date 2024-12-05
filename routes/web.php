@@ -7,6 +7,7 @@ Route::get('/', function () {
 });
 
 Route::view('coffee/dashboard', 'dashboard')->name('dashboard');
+Route::view('coffee/slot', 'slot')->name('slot');
 Route::view('coffee/feedbackForm', 'feedback/feedbackForm')->name('feedbackForm');
 Route::get('coffee/viewFeedback', function () {
     $dummyFeedbackData = 
