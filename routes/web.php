@@ -6,7 +6,7 @@ use SimpleSoftwareIO\QrCode\Facades\QrCode;
 Route::get(' ', function () {
     return redirect()->route('dashboard');
 });
- 
+
 Route::view('coffee/dashboard', 'dashboard')->name('dashboard');
 Route::view('coffee/slot', 'slot')->name('slot');
 Route::view('coffee/feedbackForm', 'feedback/feedbackForm')->name('feedbackForm');
